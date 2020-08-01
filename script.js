@@ -6,7 +6,7 @@
         }).fadeIn();
         setTimeout(function() { $(".heading").css("text-decoration", "none") }, 3500);
         setTimeout(function() { $(".heading").css("text-decoration", "underline") }, 4500);
-        setTimeout(Turn_Ex(), 4500);
+        setTimeout(Turn_Ex(), 5500);
         setTimeout(function() {
             $(".content").css("display", "contents");
         }, 5000);
