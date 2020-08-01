@@ -1,7 +1,7 @@
     $(document).ready(function() {
         $(".heading").text("Tic-Tac-Toe");
-        setTimeout(function() { $(".heading").css("text-decoration", "line-through") }, 500);
-        $(".heading").fadeOut(3000, function() {
+        setTimeout(function() { $(".heading").css("text-decoration", "line-through") }, 800);
+        $(".heading").fadeOut(3300, function() {
             $(this).text("Win Over Ex")
         }).fadeIn();
         setTimeout(function() { $(".heading").css("text-decoration", "none") }, 3000);
