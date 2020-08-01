@@ -1,11 +1,11 @@
     $(document).ready(function() {
         $(".heading").text("Tic-Tac-Toe");
-        setTimeout(function() { $(".heading").css("text-decoration", "line-through") }, 800);
-        $(".heading").fadeOut(3300, function() {
+        setTimeout(function() { $(".heading").css("text-decoration", "line-through") }, 700);
+        $(".heading").fadeOut(3500, function() {
             $(this).text("Win Over Ex")
         }).fadeIn();
-        setTimeout(function() { $(".heading").css("text-decoration", "none") }, 3000);
-        setTimeout(function() { $(".heading").css("text-decoration", "underline") }, 4000);
+        setTimeout(function() { $(".heading").css("text-decoration", "none") }, 3500);
+        setTimeout(function() { $(".heading").css("text-decoration", "underline") }, 4500);
         setTimeout(function() {
             $(".content").css("display", "contents");
         }, 5000);
