@@ -89,7 +89,7 @@ $(document).ready(function() {
         } else if (var_1 != "" && var_2 != "" && var_3 != "" && var_4 != "" && var_5 != "" && var_6 != "" && var_7 != "" && var_8 != "" && var_9 != "")
             tie();
         if (turn == "O")
-            Turn_Ex();
+            setTimeout(Turn_Ex(), 1000);
     }
 
     function Turn_Ex() {
@@ -100,7 +100,7 @@ $(document).ready(function() {
             Turn_Ex();
         else
             $('.grid-item-' + randomElement).text("EX");
-        validate();
+        validate("Ex");
     }
     $(".grid-item-1").click(function() {
         let val = $(".grid-item-1").text();
