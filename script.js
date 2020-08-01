@@ -69,7 +69,7 @@
                 else if (var_2 == "O")
                     win();
             } else if (var_3 != "" && var_6 != "" && var_9 != "" &&
-                var_2 == var_3 && var_6 == var_9) {
+                var_6 == var_3 && var_6 == var_9) {
                 if (var_3 == "EX")
                     lose();
                 else if (var_3 == "O")
