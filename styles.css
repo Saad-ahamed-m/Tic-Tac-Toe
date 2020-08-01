@@ -1,0 +1,117 @@
+.heading {
+    text-align: center;
+    text-decoration: none;
+    font-size: 75px;
+}
+
+.stroked {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Mali', cursive;
+}
+
+.head-quote {
+    font-style: italic;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    border-top: none;
+    grid-template-columns: auto auto auto;
+    width: 50px;
+    margin: 0 auto;
+    transform: translateX(-200px);
+}
+
+.grid-item-1 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 70px;
+    text-align: center;
+    width: 10px;
+    font-size: 30px;
+    height: 10px;
+}
+
+.grid-item-2 {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-3 {
+    border-bottom: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-4 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-5 {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-6 {
+    border-bottom: 1px solid black;
+    border-right: 1 px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-7 {
+    border-right: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-8 {
+    border-right: 1px solid black;
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.grid-item-9 {
+    padding: 70px;
+    font-size: 30px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+.content {
+    margin: 0;
+    display: none;
+}
