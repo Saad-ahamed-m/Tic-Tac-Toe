@@ -122,7 +122,6 @@ body {
 }
 
 .button {
-    display: inline-flex;
     height: 40px;
     width: 150px;
     border: 2px solid #BFC0C0;
@@ -138,8 +137,9 @@ body {
     border-color: black;
     color: black;
     margin: 0 auto;
-    transform: translate(460%, 150%);
+    transform: translate(0%, 90%);
     visibility: hidden;
+    display: flex;
 }
 
 #button-1 {
@@ -150,7 +150,6 @@ body {
 
 #button-1 a {
     position: relative;
-    left: 0;
     transition: all .35s ease-Out;
 }
 
