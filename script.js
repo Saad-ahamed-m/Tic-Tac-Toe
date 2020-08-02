@@ -2,7 +2,7 @@ $(document).ready(function() {
     $(".heading").text("Tic-Tac-Toe");
     setTimeout(function() { $(".heading").css("text-decoration", "line-through") }, 700);
     $(".heading").fadeOut(3500, function() {
-        $(this).text("Win Your Ex !")
+        $(this).text("Defeat Your Ex !")
     }).fadeIn();
     setTimeout(function() { $(".heading").css("text-decoration", "none") }, 3500);
     setTimeout(function() { $(".heading").css("text-decoration", "underline") }, 4500);
