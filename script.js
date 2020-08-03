@@ -179,8 +179,8 @@ $(document).ready(function() {
         let val = $(".grid-item-4").text();
         if (val == "" && win_val == 0) {
             $(".grid-item-4").text("O");
-            validate("O");
-            setTimeout(Turn_Ex(), 2000);
+           if (validate("O") == 0)
+                Turn_Ex();
         }
     });
     $(".grid-item-5").click(function() {
